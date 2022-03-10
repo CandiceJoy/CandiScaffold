@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+	"module"                          : "ESNext",
+	"noImplicitAny"                   : true,
+	"removeComments"                  : false,
+	"preserveConstEnums"              : true,
+	"sourceMap"                       : false,
+	"inlineSourceMap"                 : false,
+	"inlineSources"                   : false,
+	"allowUnreachableCode"            : false,
+	"allowUnusedLabels"               : false,
+	"alwaysStrict"                    : true,
+	"noImplicitOverride"              : true,
+	"noImplicitThis"                  : true,
+	"allowJs"                         : true,
+	"checkJs"                         : false,
+	"traceResolution"                 : true,
+	"noUnusedLocals"                  : true,
+	"noUnusedParameters"              : true,
+	"noUncheckedIndexedAccess"        : false,
+	"noEmitOnError"                   : false,
+	"strict"                          : true,
+	"allowUmdGlobalAccess"            : true,
+	"strictNullChecks"                : true,
+	"declarationMap"                  : false,
+	"strictPropertyInitialization"    : false,
+	"strictBindCallApply"             : true,
+	"pretty"                          : true,
+	"target"                          : "ES2021",
+	"moduleResolution"                : "Node",
+	"listFiles"                       : true,
+	"listEmittedFiles"                : true,
+	"forceConsistentCasingInFileNames": true,
+	"strictFunctionTypes"             : true,
+	"noImplicitUseStrict"             : false,
+	"resolveJsonModule": true,
+	"isolatedModules": true,
+	"allowSyntheticDefaultImports": true,
+	"esModuleInterop": true,
+	"jsx"            : "react",
+	"lib"                             : [
+	  "DOM",
+	  "ES2021",
+	  "dom.iterable",
+	  "esnext"
+	],
+	"baseUrl"                         : "./"
+  },
+  "include": [
+	"tsconfig"
+  ],
+  "files": ["index.tsx","MyReactComponent.tsx"]
+}
